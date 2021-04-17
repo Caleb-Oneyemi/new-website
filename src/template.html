@@ -37,7 +37,7 @@
         <h1 class="hero-title" class="load-hidden">
           Hi, my name is <span class="text-color-main">Caleb</span>
           <br />
-          I'm a Web Developer.
+          I'm a <span class="text-color-main">Full Stack</span> Web Developer.
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a class="cta-btn cta-btn--hero" href="#about">See more</a>
@@ -67,10 +67,11 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                I am a graduate of Covenant University. I studied Industrial Physics and Applied Geophysics and graduated with a Second Class Upper. However during my years in School I ended up falling in love with technology and not just because I thought it was cool. I saw that it has a wide variety of applications that continue to grow everyday and it could actually help make Africa and the World a better place if used wisely.
+                I am a graduate of Covenant University. I studied Industrial Physics and Applied Geophysics and graduated with a Second Class Upper in 2018. I've been a hobby coder for over three years and learnt a couple of languages including JavaScript, Python and C#. Starting from 2020, I decided to focus on JavaScript and Front End Web Development and I did a couple of cool things but the self taught path was a real pain so I decided to apply for the Decagon Software Engineering and Leadership Training Program.
               </p>
               <p class="about-wrapper__info-text">
-                After graduation I decided to focus on understanding how tech companies succeed while building skills relevant to the technology sector and this I have done. I'm a self taught web developer and have lots of experience building websites and working on random technology projects. A couple of my skills include HTML, CSS, JavaScript, React, SEO and I'm also familiar with a bunch of other technologies like Sass, TypeScript, GatsbyJs and NodeJs. Beyond these I am highly interested in the User Experience and the Product itself with a knack for making products people love. This makes me capable of contributing meaningfully across all stages of the product development process. I also just started sharing my ideas about Businesses, Tech, Products and other random things I'm interested in on Medium @ Caleb Oneyemi. Feel free to check them out.              </p>
+                At Decagon, I was able to hone my skills and learn a lot of things, and the most important of them all was learning how to learn. Right now I'm a full stack web developer capable of leveraging JavaScript and TypeScript to Build Full Stack Applications. I used to hate TypeScript but after working consistently with TypeScript for months and switching to JavaScript to build a Classroom App I realized that TypeScript has been saving my life. I'm now officially a TypeScript fan and I'm currently using it along with React, GraphQL, Node.js, Express and Postgres to build a Reddit Clone. Asides coding I've also been fascinated by how companies apply technology to solve problems and this has made me study them and the products they build. Occasionally I write about them on LinkedIn and Medium but due to my recent commitments I haven't been able to write in months. I look forward to working with teams solving interesting problems at scale and having a little more time to write.
+              </p>
               <span class="d-flex mt-3">
                 <a target="_blank" class="cta-btn cta-btn--resume" href="https://medium.com/@caloneyemi">
                   View Medium
@@ -95,16 +96,16 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">RoboCards</h3>
+                <h3 class="project-wrapper__text-title">Mini Trello</h3>
                 <div>
                   <p class="mb-4">
-                    RoboCards is a simple site that uses search to filter through a list of Robot Cards. The project was bootstrapped using Create React App. The List of Card Names is supplied through an API called JSON Placeholder API and Robot Images are supplied for every Unique Robot Name using an API called Robo Hash. The App is also styled using tachyons which is a simple CSS toolkit for quickly building and designing new UI without writing actual CSS. In an Earlier Version of this Project, I used Redux Thunk for state management (mostly just to test out the technology) but later on removed it to avoid over engineering. The current method used to handle state simply involves a Constructor Function housing a this.state Object. The App was deployed using Netlify which is a great platform for deploying modern static websites.
+                    This is a slimmed down version of the popular web-based, Kanban-style, list-making application Trello. Tasks can be added under the 3 sections by clicking add new task and they can be moved from To-do to In-progress to Done by simply double clicking the task. It was built with React and TypeScript, deployed on Netlify and uses the browsers local storage to persist Data.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://affectionate-kirch-eb0168.netlify.app/">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://mini-trello.netlify.app/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Caleb-Oneyemi/RoboCards">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Caleb-Oneyemi/mini-trello">
                   Source Code
                 </a>
               </div>
@@ -113,7 +114,7 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/logo.png" />
+                    <img class="img-fluid" src="./assets/trello.jpeg" width='750px' height='300px'/>
                   </div>
                 </a>
               </div>
@@ -125,16 +126,16 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Smartbrain</h3>
+                <h3 class="project-wrapper__text-title">WhatsApp Clone</h3>
                 <div>
                   <p class="mb-4">
-                    Smartbrain is a simple site for detecting faces in pictures. All you have to do is click signin and copy the image link into the input box and click detect. If there's a face in the picture, the app will simply put a box around the face. This project was bootstrapped using Create React App and makes use of the Clarifai API for face detection. It also uses tachyons, tilt.js and particles.js for styling and a little fancy interactivity. SignIn and Registration forms where added to this project without authentication to test out Routing which was handled simply using a route state instead of React Router to avoid over engineering. Future Additions to this project will feature a Database, User Authentication, a backend using NodeJs, an Upload functionality and further experimentation with the Clarifai API to detect Food, Color and other stuff. This app was also deployed using Netlify.
+                    A basic whatsapp clone supporting one-to-one messaging built with Next.js and Firebase. Elements of Server Side Rendering and Static Site Generation are used within the app. User authentication is provided by Google Auth, User data is stored on Firestore and Web App was deployed on Vercel. 
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://serene-poincare-f7e881.netlify.app/">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://whatsapp-clone-neon-eight.vercel.app/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Caleb-Oneyemi/smartbrain">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Caleb-Oneyemi/whatsapp-clone">
                   Source Code
                 </a>
               </div>
@@ -143,7 +144,7 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/brain.jpg" />
+                    <img class="img-fluid" src="./assets/whatsapp.png" width='750px' height='300px' />
                   </div>
                 </a>
               </div>
@@ -155,16 +156,16 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Quiz App</h3>
+                <h3 class="project-wrapper__text-title">Todo App</h3>
                 <div>
                   <p class="mb-4">
-                    This is a Sleek Website built using React and TypeScript. The project was styled using styled components which is a CSS-In-JS tool and a great alternative to tachyons (particularly if you want more control over your styles) as it allows you to make custom styles for your components and brings greater interactivity to your styles without the added complexity. The Project uses an API called Open Trivia to source the random quiz questions. Fonts used in this project are Catamaran and Fascinate inline from Google Fonts and the App is also deployed using Netlify.
+                    A Basic Todo App that supports adding todos, editing exiting todos, deleting todos, copying todos and searching through todos. The App leverages all the major full stack components with the Front End handled by vanilla HTML, CSS and JavaScript and the Backend handled by Node.js (TypeScript), Express.js and MongoDB. The Web App was also deployed to Heroku.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://eloquent-pasteur-e6eac0.netlify.app/">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://mini-todos.herokuapp.com/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Caleb-Oneyemi/quiz-app">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Caleb-Oneyemi/mini-todo">
                   Source Code
                 </a>
               </div>
@@ -173,7 +174,7 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/image.jpg" />
+                    <img class="img-fluid" src="./assets/todo.png" width='750px' height='300px' />
                   </div>
                 </a>
               </div>
